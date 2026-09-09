@@ -20,6 +20,7 @@ dependencies = []
 [project.urls]
 Documentation = "https://api.raportkrs.pl/docs"
 Homepage = "https://raportkrs.pl"
+Repository = "https://github.com/raportkrs/api"
 
 [tool.setuptools]
 packages = ["raportkrs"]
