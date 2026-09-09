@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raportkrs"
+version = "1.1.0"
+description = "Klient publicznego API RaportKRS (api.raportkrs.pl): polskie spółki z KRS, sprawozdania finansowe, osoby, zdarzenia, webhooki."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["krs", "nip", "polska", "spolki", "api", "raportkrs", "sprawozdania finansowe"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://api.raportkrs.pl/docs"
+Homepage = "https://raportkrs.pl"
+
+[tool.setuptools]
+packages = ["raportkrs"]

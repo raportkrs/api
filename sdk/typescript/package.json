@@ -1,0 +1,20 @@
+{
+  "name": "@raportkrs/sdk",
+  "version": "1.1.0",
+  "description": "Klient TypeScript/JavaScript publicznego API RaportKRS (api.raportkrs.pl) — dane o polskich spółkach z KRS, finanse, osoby, zdarzenia, webhooki.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["krs", "nip", "polska", "spolki", "api", "raportkrs", "sprawozdania finansowe"],
+  "homepage": "https://api.raportkrs.pl/docs",
+  "repository": { "type": "git", "url": "https://github.com/raportkrs/sdk" },
+  "engines": { "node": ">=18" },
+  "devDependencies": { "typescript": "^5.7.2" }
+}
