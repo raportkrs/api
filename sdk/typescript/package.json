@@ -14,7 +14,7 @@
   },
   "keywords": ["krs", "nip", "polska", "spolki", "api", "raportkrs", "sprawozdania finansowe"],
   "homepage": "https://api.raportkrs.pl/docs",
-  "repository": { "type": "git", "url": "https://github.com/raportkrs/api.git", "directory": "sdk/typescript" },
+  "repository": { "type": "git", "url": "git+https://github.com/raportkrs/api.git", "directory": "sdk/typescript" },
   "bugs": { "url": "https://github.com/raportkrs/api/issues" },
   "engines": { "node": ">=18" },
   "devDependencies": { "typescript": "^5.7.2" }
