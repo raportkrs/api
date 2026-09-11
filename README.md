@@ -37,7 +37,7 @@ Kod obu klientów w katalogu [`sdk/`](sdk/):
 
 | Język | Pakiet | Instalacja |
 |---|---|---|
-| Python ≥ 3.9 (bez zależności) | [`sdk/python`](sdk/python) | `pip install raportkrs` — a do czasu publikacji w PyPI: `pip install "git+https://github.com/raportkrs/api#subdirectory=sdk/python"` |
+| Python ≥ 3.9 (bez zależności) | [`sdk/python`](sdk/python) | `pip install raportkrs` |
 | TypeScript / JS (Node ≥ 18, Deno, Bun, przeglądarka) | [`sdk/typescript`](sdk/typescript) | `npm i @raportkrs/sdk` |
 
 ```python

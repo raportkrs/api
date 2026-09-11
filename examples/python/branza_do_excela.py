@@ -3,7 +3,7 @@
 Pobiera katalog stronami (1 token za stronę do 1 000 rekordów) i zapisuje
 płaską tabelę do CSV zdatnego dla polskiego Excela.
 
-    pip install "git+https://github.com/raportkrs/api#subdirectory=sdk/python"
+    pip install raportkrs
     export RAPORTKRS_KEY=rk_live_...
     python branza_do_excela.py
 """

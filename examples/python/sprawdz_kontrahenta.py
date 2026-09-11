@@ -1,7 +1,7 @@
 """Szybka weryfikacja kontrahenta po NIP.
 
 Uruchomienie:
-    pip install "git+https://github.com/raportkrs/api#subdirectory=sdk/python"
+    pip install raportkrs
     export RAPORTKRS_KEY=rk_live_...
     python sprawdz_kontrahenta.py 5252973880
 """
