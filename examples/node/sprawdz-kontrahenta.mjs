@@ -1,6 +1,6 @@
 // Szybka weryfikacja kontrahenta po NIP.
 //
-//   git clone https://github.com/raportkrs/api && npm i ./api/sdk/typescript
+//   npm i @raportkrs/sdk
 //   RAPORTKRS_KEY=rk_live_... node sprawdz-kontrahenta.mjs 5252973880
 
 import { RaportKRS, RaportKRSError } from "@raportkrs/sdk";
